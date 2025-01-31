@@ -1,0 +1,184 @@
+/* HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ED957;
+    border: 3px black solid; /* ---------- Remove When Completed -------------- */
+}
+
+/* Main */
+main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Article */
+article {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 50px;
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 10%;
+}
+
+/* Footer */
+footer {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #7ED957;
+    border: 3px black solid; 
+}
+
+footer div {
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+/* Image */
+header > img {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+
+/* Figure */
+figure {
+    float: left;
+}
+
+/* Form */
+form {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10%;  
+}
+
+/* Nav */
+nav menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav menu li a{
+    display: inline-flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2em;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+
+nav menu li p{
+    display: inline-flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2em;
+    font-weight: 900;  
+}
+
+/* Li Elements */
+li {
+    list-style-type: none;   
+}
+
+h1, h2 {
+    font-family: "Smooch Sans";
+}
+
+/* Headings */
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Paragraph */
+p, a, figcaption, label {
+    font-family: Kanit;
+}
+
+/* Anchor */
+a {
+    text-decoration: none;
+    color: #5CE1E6; 
+    background-color: white;
+}
+
+/* Input */
+input {
+    width: 300px;
+    text-align: center;
+}
+
+/* IDs */
+#signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/engineering.jpeg);
+    /* Engineering Image Downloaded From Pexel https://www.pexels.com/photo/high-angle-view-of-a-man-256381/ */
+    background-size: cover; 
+}
+
+#signUp > article{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonContainer, .inputContainer, main, #articleBackgroundImg {
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+}
+
+#buttonContainer {
+    margin: 25px;
+}
+
+#submitMessage {
+    text-align: center;
+}
+
+#articleBackgroundImg {
+    background-image: url(../images/factory.jpeg);
+    /* Factory Image Downloaded From Pexel https://www.pexels.com/photo/interior-of-empty-parking-lot-257636/ */
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* Classes */
+.inputContainer {
+    flex-direction: column;
+    text-align: center;
+    margin: 25px;
+}
+
+.sectionSeperator {
+    width: 100%;
+    height: 50px;
+    background-color: #7ED957;
+    border: 3px solid #5CE1E6;
+}
